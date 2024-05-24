@@ -94,7 +94,7 @@ const Cards = [
   {
     icon: LuGauge,
     title: "#2",
-    text: "lorem",
+    text: "lsssssssssssorem",
   },
   {
     icon: LuCreditCard,
