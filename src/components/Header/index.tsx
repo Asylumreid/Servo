@@ -56,7 +56,7 @@ const Header = () => {
         lineHeight={1}
         textAlign={"center"}
       >
-        Being your
+        Your Trusted
       </Heading>
       <AnimatePresence mode="wait">
         <Heading

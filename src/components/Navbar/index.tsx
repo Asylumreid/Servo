@@ -19,7 +19,7 @@ import useBannerVisibility from "#/src/utils/BannerVisibility";
 const NavItems = [
   { name: "Features", href: "/#features" },
   { name: "Product", href: "/#product" },
-  { name: "Pricing", href: "/#pricing" },
+  { name: "Help Centre", href: "/#helpcentre" },
 ];
 
 const Navbar: FC = () => {
@@ -112,7 +112,7 @@ const Navbar: FC = () => {
                   activeSection === item.name.toLowerCase()
                     ? isScrolled
                       ? "#00000010"
-                      : "#ffffff25"
+                      : "#8d0fc8"
                     : "transparent"
                 }
               >
@@ -134,7 +134,7 @@ const Navbar: FC = () => {
               color={isScrolled ? "white" : "black"}
               _hover={{ bg: isScrolled ? StargateColors.primary : "white" }}
             >
-              Start for free
+              Download now
             </Button>
           </Flex>
 
@@ -182,7 +182,7 @@ const Navbar: FC = () => {
                 background={isScrolled ? StargateColors.primary : "white"}
                 color={isScrolled ? "white" : "black"}
               >
-                Start for free
+                Download now
               </Button>
             </Flex>
           </Flex>

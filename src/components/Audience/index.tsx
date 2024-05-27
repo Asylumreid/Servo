@@ -89,28 +89,28 @@ const Card = ({ color, children }: CardProps) => {
 
 const Cards = [
   {
+    title: "Service Companies",
+    color: "#000000",
+  },
+  {
     title: "Freelancers",
-    color: "#E6990B",
+    color: "#000000",
   },
   {
     title: "Startups",
-    color: "#A431C7",
+    color: "#000000",
   },
   {
     title: "Contractors",
-    color: "#42C9B2",
+    color: "#000000",
   },
   {
-    title: "Professionals",
-    color: "#348FDA",
-  },
-  {
-    title: "Service companies",
-    color: "#41B668",
+    title: "Retired",
+    color: "#000000",
   },
   {
     title: "Students",
-    color: "#DA4D8F",
+    color: "#000000",
   },
 ];
 

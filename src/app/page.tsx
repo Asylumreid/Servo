@@ -14,6 +14,7 @@ export default function Home() {
       <Audience />
       <Product />
       <Pricing />
+
     </main>
   );
 }

@@ -37,20 +37,20 @@ const Footer = () => {
         </Flex>
         <Heading
           fontSize={{
-            base: 72,
+            base: 50,
             md: 96,
           }}
           textAlign={"center"}
           color="transparent"
-          maxW={900}
-          fontWeight={800}
+          maxW={1100}
+          fontWeight={700}
           style={{
             backgroundImage: "linear-gradient(315deg, #ffffff 60%, #000000)",
             backgroundClip: "text",
             WebkitBackgroundClip: "text",
           }}
         >
-          Are you ready to join us?
+          Be a part of the Service Provider family
         </Heading>
 
         <Button

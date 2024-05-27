@@ -34,7 +34,7 @@ const Banner = () => {
         }}
         color={StargateColors.white}
       >
-        Join us to get 20% discount on onboarding 
+        Enjoy a 20% discount on your first order!
       </Text>
       <Icon
         as={LuX}

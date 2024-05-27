@@ -31,7 +31,7 @@ const Features = () => {
         }}
         textAlign={"center"}
       >
-        We provide
+        Why choose Servo?
       </Heading>
       <Grid
         templateColumns={{
@@ -88,33 +88,43 @@ const Card = ({ icon, title, children }: CardProps) => (
 const Cards = [
   {
     icon: LuBot,
-    title: "#1",
-    text: "Lorem",
+    title: "Seamless Service Booking",
+    text: "Effortlessly book a wide range of home services with just a few taps.",
   },
   {
     icon: LuGauge,
-    title: "#2",
-    text: "lsssssssssssorem",
+    title: "Wide Service Provider Network",
+    text: "Access a diverse network of skilled freelancers and companies ready to fulfil your service requests.",
   },
   {
     icon: LuCreditCard,
-    title: "#3",
-    text: "jinges is handsome",
+    title: "Secure Payment Options",
+    text: "Enjoy peace of mind with secure and convenient payment methods integrated into the app, ensuring hassle-free transactions.",
   },
   {
     icon: LuLanguages,
-    title: "#4",
-    text: "Ben ben ben",
+    title: "Real-Time Communication",
+    text: "Stay connected with service providers and track the progress of your requests in real-time, ensuring transparency and efficient coordination.",
   },
   {
     icon: LuLayoutTemplate,
-    title: "#5",
-    text: "any use cases",
+    title: "Ratings and Reviews",
+    text: "Make informed decisions by checking ratings and reviews from other customers. This will help you choose the best service providers for your needs.",
   },
   {
     icon: LuLifeBuoy,
-    title: "Support Centre",
-    text: "Get prompt, expert support when you need it. We're here to ensure your seamless experience.",
+    title: "Personalised Recommendations",
+    text: "Receive tailored recommendations based on your preferences and past bookings, enhancing your overall experience on the platform.",
+  },
+  {
+    icon: LuLifeBuoy,
+    title: "Easy Scheduling",
+    text: "Flexible scheduling options allow you to book services at your convenience, whether it's a one-time appointment or a recurring visit.",
+  },
+  {
+    icon: LuLifeBuoy,
+    title: "Customer Support",
+    text: "Get prompt assistance from our dedicated customer support team, ready to address any inquiries or concerns you may have.",
   },
 ];
 

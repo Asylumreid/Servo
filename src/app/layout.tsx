@@ -38,9 +38,9 @@ export const metadata: Metadata = {
     locale: "hu_HU",
   },
   twitter: {
-    title: "Servo | Services SuperApp Platform",
+    title: "Servo | Services SuperApp Plnpmatform",
     description:
-      "Stargate is a modern SaaS Landing Page template built with NextJS. It's designed to provide a seamless and engaging experience for showcasing software products, especially those in the tech and startup niches.",
+      "Servo is a user-friendly app that connects you with verified third-party home service providers for easy booking, secure payments, and real-time updates on all your home maintenance needs.",
   },
 };
 
