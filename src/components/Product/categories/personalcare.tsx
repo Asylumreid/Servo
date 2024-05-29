@@ -3,7 +3,7 @@ import React from "react";
 import { ProductCard } from "../card";
 import { LuBug, LuCode, LuRocket } from "react-icons/lu";
 
-const Plumbing = () => {
+const Personalcare = () => {
   return (
     <Grid
       templateColumns={{
@@ -16,7 +16,7 @@ const Plumbing = () => {
       px={6}
     >
       <ProductCard icon={LuCode} title={"Fixing Leaks"}>
-      "Prevent water damage and conserve water with our quick and reliable leak fixing services, ensuring your plumbing is sealed and secure.
+      "Prevent water damage and conserve water with our quick and reliable leak fixing services, ensuring your personalcare is sealed and secure.
       </ProductCard>
 
       <ProductCard icon={LuBug} title={"Unclogging Drains"}>
@@ -30,4 +30,4 @@ const Plumbing = () => {
   );
 };
 
-export default Plumbing;
+export default Personalcare;

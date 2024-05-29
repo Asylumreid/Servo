@@ -4,10 +4,14 @@ import { Flex, Heading, Text } from "@chakra-ui/react";
 import React, { useState } from "react";
 import Cleaning from "./categories/cleaning";
 import Repair from "./categories/repair";
-import Plumbing from "./categories/plumbing";
-import Electrical from "./categories/electrical";
+import Personalcare from "./categories/personalcare";
+import Technological from "./categories/technological";
 import Pet from "./categories/pet";
-import VehicleCare from "./categories/vehicle";
+import Renovation from "./categories/renovation";
+import FamilyCare from "./categories/familycare";
+import Health from "./categories/health";
+import Moving from "./categories/moving";
+import PestControl from "./categories/pestcontrol";
 import { AnimatePresence } from "framer-motion";
 import { motion } from "framer-motion";
 
@@ -118,19 +122,27 @@ const Product = () => {
 const categoryComponents = {
   cleaning: Cleaning,
   repair: Repair,
-  plumbing: Plumbing,
-  electrical: Electrical,
+  personalcare: Personalcare,
+  technological: Technological,
   pet: Pet,
-  vehicle: VehicleCare,
+  renovation: Renovation,
+  familycare: FamilyCare,
+  health: Health,
+  moving: Moving,
+  pestcontrol: PestControl,
 };
 
 const Categories = [
   "Cleaning",
   "Repair",
-  "Plumbing",
-  "Electrical",
+  "Personal Care",
+  "Technological",
   "Pet",
-  "Vehicle",
+  "Renovation",
+  "Family Care",
+  "Health",
+  "Moving",
+  "Pest Control",
 ];
 
 export default Product;

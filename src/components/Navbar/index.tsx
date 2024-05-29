@@ -19,7 +19,7 @@ import useBannerVisibility from "#/src/utils/BannerVisibility";
 const NavItems = [
   { name: "Features", href: "/#features" },
   { name: "Product", href: "/#product" },
-  { name: "Help Centre", href: "/#helpcentre" },
+  { name: "Help Centre", href: "/help-centre" },
 ];
 
 const Navbar: FC = () => {
