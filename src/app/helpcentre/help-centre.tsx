@@ -1,5 +1,5 @@
 import React from 'react';
-import HelpCentreFAQ from "../components/HelpCentre/HelpCentreFAQ";
+import HelpCentreFAQ from "../../components/HelpCentre/HelpCentreFAQ";
 
 const HelpCentrePage = () => {
   return (
